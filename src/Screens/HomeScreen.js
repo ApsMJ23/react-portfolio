@@ -67,7 +67,7 @@ function HomeScreen() {
                             <Card.Footer>
                                 <Row>
                                     <Col className='text-start'>
-                                        <Link to='/proshop' className='btn btn-warning' target='_top'>Read More</Link>
+                                        <Link to='/proshop' className='btn btn-warning' target='_top' rel="noopener noreferrer">Read More</Link>
                                     </Col>
                                     <Col className='text-end'>
                                         <a href="https://github.com/ApsMJ23/ProShop.git" rel="noopener noreferrer" target='_blank' className='btn btn-warning'><i className='fab fa-github'></i> Source Code</a>
@@ -90,7 +90,7 @@ function HomeScreen() {
                             <Card.Footer>
                                 <Row>
                                     <Col className='text-start'>
-                                        <Link to='/cocktails' className='btn btn-warning' target='_top'>Read More</Link>
+                                        <Link to='/cocktails' className='btn btn-warning' target='_top' rel="noopener noreferrer">Read More</Link>
                                     </Col>
                                     <Col className='text-end'>
                                         <a href="https://github.com/ApsMJ23/React-Project/tree/master/14.Cocktails" rel="noopener noreferrer" target='_blank' className='btn btn-warning'><i className='fab fa-github'></i> Source Code</a>
@@ -114,7 +114,7 @@ function HomeScreen() {
                             <Card.Footer>
                                 <Row>
                                     <Col className='text-start'>
-                                        <Link to='/reactprojects' className='btn btn-warning' target='_top'>Read More</Link>
+                                        <Link to='/reactprojects' className='btn btn-warning' target='_top' rel="noopener noreferrer">Read More</Link>
                                     </Col>
                                     <Col className='text-end'>
                                         <a href="https://github.com/ApsMJ23/React-Project.git" rel="noopener noreferrer" target='_blank' className='btn btn-warning'><i className='fab fa-github'></i> Source Code</a>
