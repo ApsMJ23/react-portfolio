@@ -4,7 +4,7 @@ import HomeScreen from './Screens/HomeScreen'
 import ResumeScreen from './Screens/ResumeScreen'
 import ProShopScreen from './Screens/ProShopScreen'
 import CocktailsScreen from './Screens/CocktailsScreen'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 
@@ -12,23 +12,21 @@ function App() {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route path='/' exact>
-          <HomeScreen />
-        </Route>
-        <Route path='/#projects/proshop'>
-          <ProShopScreen />
-        </Route>
-        <Route path='/#projects/cocktails'>
-          <CocktailsScreen />
-        </Route>
-        <Route path='/#projects/reactprojects'>
-          <ReactProjectScreen />
-        </Route>
-        <Route path='/resume'>
-          <ResumeScreen />
-        </Route>
-      </Switch>
+      <Route path='/' exact>
+        <HomeScreen />
+      </Route>
+      <Route path='/proshop'>
+        <ProShopScreen />
+      </Route>
+      <Route path='/cocktails'>
+        <CocktailsScreen />
+      </Route>
+      <Route path='/reactprojects'>
+        <ReactProjectScreen />
+      </Route>
+      <Route path='/resume'>
+        <ResumeScreen />
+      </Route>
       <Footer />
     </Router>
   )
