@@ -16,13 +16,13 @@ function App() {
         <Route path='/' exact>
           <HomeScreen />
         </Route>
-        <Route path='/proshop'>
+        <Route path='/#projects/proshop'>
           <ProShopScreen />
         </Route>
-        <Route path='/cocktails'>
+        <Route path='/#projects/cocktails'>
           <CocktailsScreen />
         </Route>
-        <Route path='/reactprojects'>
+        <Route path='/#projects/reactprojects'>
           <ReactProjectScreen />
         </Route>
         <Route path='/resume'>

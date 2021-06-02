@@ -67,7 +67,7 @@ function HomeScreen() {
                             <Card.Footer>
                                 <Row>
                                     <Col className='text-start'>
-                                        <Link to='/proshop' className='btn btn-warning' target='_top'>Read More</Link>
+                                        <Link to='/#projects/proshop' className='btn btn-warning' target='_top'>Read More</Link>
                                     </Col>
                                     <Col className='text-end'>
                                         <a href="https://github.com/ApsMJ23/ProShop.git" rel="noopener noreferrer" target='_blank' className='btn btn-warning'><i className='fab fa-github'></i> Source Code</a>
@@ -90,7 +90,7 @@ function HomeScreen() {
                             <Card.Footer>
                                 <Row>
                                     <Col className='text-start'>
-                                        <Link to='/#cocktails' className='btn btn-warning' target='_top'>Read More</Link>
+                                        <Link to='/#projects/cocktails' className='btn btn-warning' target='_top'>Read More</Link>
                                     </Col>
                                     <Col className='text-end'>
                                         <a href="https://github.com/ApsMJ23/React-Project/tree/master/14.Cocktails" rel="noopener noreferrer" target='_blank' className='btn btn-warning'><i className='fab fa-github'></i> Source Code</a>
@@ -105,7 +105,7 @@ function HomeScreen() {
                                 <h3>My journey to ReactJS</h3>
                             </Card.Header>
                             <Card.Body>
-                                <LinkContainer to='/reactprojects'>
+                                <LinkContainer to='/#projects/reactprojects'>
                                     <Image src={cart} alt='cart' fluid rounded />
                                 </LinkContainer>
                                 <p className='mt-4'>The need to learn react grew when It was getting really repetitive and tiresome to do stuff in javascript,so I started following John Smilga's course on React,He explains so effortlessly and before you know it you're redoing your portfolio in react!!</p>
