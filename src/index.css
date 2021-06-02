@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.typewriter-container {
+  font-size: 6vh;
+  color: #f9952d;
+}
+
+.about-container {
+  margin-top: 40vh;
+  padding: 8vw;
+  background-image: linear-gradient(240deg, #000000 75%, #f9952d 100%);
+}
+
+.proImg {
+  float: left;
+}
+
+.rp-title {
+  font-family: "Inconsolata", monospace;
+  border-bottom: 2px solid #f9952d;
+}
+
+.rp-bdy {
+  font-family: "Montserrat", sans-serif;
+}
+
+.project-container {
+  transition: all 0.2s ease-in-out;
+}
+
+.project-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#ResumeContainer {
+  margin: auto;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PDFDocument {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PDFPage {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+}
+
+.PDFPage > canvas {
+  max-width: 100%;
+  height: auto !important;
+}
