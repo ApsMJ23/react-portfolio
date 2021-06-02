@@ -13,9 +13,7 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route path='/' exact>
-          <HomeScreen />
-        </Route>
+        <Route path='/' exact component={<HomeScreen />} />
         <Route path='/proshop' component={<ProShopScreen />} />
         <Route path='/cocktails' component={<CocktailsScreen />} />
         <Route path='/reactprojects' component={<ReactProjectScreen />} />
