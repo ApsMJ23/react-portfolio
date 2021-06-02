@@ -4,7 +4,7 @@ import HomeScreen from './Screens/HomeScreen'
 import ResumeScreen from './Screens/ResumeScreen'
 import ProShopScreen from './Screens/ProShopScreen'
 import CocktailsScreen from './Screens/CocktailsScreen'
-import { HashRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 
